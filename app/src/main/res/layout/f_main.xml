@@ -1,0 +1,109 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:src="@drawable/ic_menu"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/bg_selector"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/live"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="25dp"
+            android:gravity="center"
+            android:text="@string/main_live_header"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/bg_selector"
+            app:layout_constraintBottom_toBottomOf="@+id/menu"
+            app:layout_constraintEnd_toStartOf="@+id/vod"
+            app:layout_constraintStart_toEndOf="@+id/menu"
+            app:layout_constraintTop_toTopOf="@+id/menu" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/vod"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="25dp"
+            android:gravity="center"
+            android:text="@string/main_vod_header"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/bg_selector"
+            app:layout_constraintBottom_toBottomOf="@+id/menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/live"
+            app:layout_constraintTop_toTopOf="@+id/menu" />
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:padding="40dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@color/colorBackground">
+
+        <Switch
+            android:id="@+id/stats_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="end"
+            android:checked="false"
+            android:text="@string/drawer_stats_switch"
+            android:switchPadding="10dp"
+            android:padding="10dp"/>
+
+        <Switch
+            android:id="@+id/complex_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="end"
+            android:checked="false"
+            android:text="@string/drawer_complex_mode_switch"
+            android:switchPadding="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/drawer_version"
+            />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

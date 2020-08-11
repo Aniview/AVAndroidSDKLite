@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:keepScreenOn="true"
+    tools:context=".v2.ui.playback.ComplexExoActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player"
+        app:surface_type="surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/general_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#88000000"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/debug_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#88000000"/>
+
+
+</FrameLayout>

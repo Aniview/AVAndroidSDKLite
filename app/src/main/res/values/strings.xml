@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AniviewDemo</string>
+
+    <string name="splash_hint">ANIVIEW OTT MONETIZATION FOR PUBLISHERS</string>
+    <string name="main_vod_header">VOD</string>
+    <string name="main_live_header">LIVE</string>
+    <string name="drawer_offline_switch">Offline mode</string>
+    <string name="drawer_stats_switch">Show stats</string>
+    <string name="drawer_complex_mode_switch">Complex mode</string>
+
+    <string name="main_no_content">No content available</string>
+    <string name="drawer_version">Demo version 0.8.14\nSDK version 1.0.21</string>
+
+    <string name="remote_playlist_url">https://play.aniview.com/5d53c40328a0612a9c2b9afd/5d9f47ec4b62366716474b22/DemoApp_Customers.json</string>
+</resources>

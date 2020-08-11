@@ -1,0 +1,62 @@
+{
+   "live":[
+      {
+         "description":"Manchester United vs Chelsea",
+         "promoted":true,
+         "rating":0.0,
+         "thumbnail":"https://i2.wp.com/metro.co.uk/wp-content/uploads/2017/04/premier_league_matchday_utd_chels01.png",
+         "title":"English Premier League",
+         "url":"https://hls-works.appspot.com/a?url\u003dhttp://nana10-hdl-il-sw.ctedgecdn.net/10tv_Desktop/c13_1200.m3u8"
+      },
+      {
+         "description":"Live",
+         "promoted":false,
+         "rating":0.0,
+         "thumbnail":"https://lh3.googleusercontent.com/D856u-v7JNW-0KpmpGbWuks-spjNo05r5gGa3YeGOEc7Lgg8xau7tFpDE2GgVAp3H3yc",
+         "title":"BBC NEWS",
+         "url":"https://hls-works.appspot.com/a?url\u003dhttp://nana10-hdl-il-sw.ctedgecdn.net/10tv_Desktop/c13_1200.m3u8"
+      },
+      {
+         "description":"Live",
+         "promoted":false,
+         "rating":0.0,
+         "thumbnail":"https://data1.ibtimes.co.in/cache-img-0-450/en/full/628616/1488341940_lady-gaga.jpg",
+         "title":"Lady Gaga in the park",
+         "url":"https://hls-works.appspot.com/a?url\u003dhttp://nana10-hdl-il-sw.ctedgecdn.net/10tv_Desktop/c13_1200.m3u8"
+      }
+   ],
+   "vod":[
+      {
+         "description":"2010",
+         "promoted":false,
+         "rating":4.9,
+         "thumbnail":"https://pbs.twimg.com/media/D5XbkexUYAAQYCf.jpg",
+         "title":"James Bond 25",
+         "url":"http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1840_vod.m3u8"
+      },
+      {
+         "description":"2015",
+         "promoted":false,
+         "rating":4.7,
+         "thumbnail":"https://images3.alphacoders.com/869/thumb-350-869814.jpg",
+         "title":"Mission Impossible Rogue Nation",
+         "url":"http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1840_vod.m3u8"
+      },
+      {
+         "description":"2019",
+         "promoted":false,
+         "rating":2.4,
+         "thumbnail":"https://i.ytimg.com/vi/9SA7FaKxZVI/maxresdefault.jpg",
+         "title":"Hobbs \u0026 Shaw",
+         "url":"http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1840_vod.m3u8"
+      },
+      {
+         "description":"2019",
+         "promoted":false,
+         "rating":4.4,
+         "thumbnail":"https://i.kym-cdn.com/entries/icons/original/000/029/174/jokerposter.jpg",
+         "title":"Joker",
+         "url":"http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1840_vod.m3u8"
+      }
+   ]
+}
